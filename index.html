@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPCbook | App de Biblioteca Escolar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">
+                    <img class="ipcbooklogo"src="assets/images/logo1.png" alt="logo do ipcbook" />
+                    <span>IPCbook</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#features" class="nav-link">Recursos</a></li>
+                    <li><a href="#how-it-works" class="nav-link">Como Funciona</a></li>
+                    <li><a href="#testimonials" class="nav-link">Depoimentos</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="#" class="btn btn-secondary">Login</a>
+                    <a href="#download" class="btn btn-primary">Download</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="overlay" id="overlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileMenuClose">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="mobile-nav-links">
+            <li class="mobile-nav-link"><a href="#features">Recursos</a></li>
+            <li class="mobile-nav-link"><a href="#how-it-works">Como Funciona</a></li>
+            <li class="mobile-nav-link"><a href="#testimonials">Depoimentos</a></li>
+            <li class="mobile-nav-link"><a href="#faq">FAQ</a></li>
+            <li class="mobile-nav-link"><a href="#">Login</a></li>
+            <li class="mobile-nav-link"><a href="#download">Download</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>Sua biblioteca escolar <span class="text-primary">na palma da mão</span></h1>
+                    <p>O IPCbook é um aplicativo moderno que transforma a experiência da biblioteca escolar, permitindo que estudantes encontrem, reservem e gerenciem livros de forma simples e rápida.</p>
+                    <div class="hero-cta">
+                        <a href="#download" class="btn btn-primary">Baixar Agora</a>
+                        <a href="#how-it-works" class="btn btn-secondary">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/ipcbook8.png" alt="IPCbook App Screenshot">
+                    <div class="hero-badge badge-1">
+                        <i class="fas fa-book"></i>
+                        <span>+5000 Livros</span>
+                    </div>
+                    <div class="hero-badge badge-2">
+                        <i class="fas fa-star"></i>
+                        <span>4.9/5 Avaliação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features section" id="features">
+        <div class="container">
+            <h2 class="section-title text-center">Recursos Incríveis</h2>
+            <p class="section-subtitle text-center">Descubra as funcionalidades que tornam o IPCbook a melhor opção para sua escola</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon blue">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="feature-title">Busca Avançada</h3>
+                    <p class="feature-description">Encontre livros por título, autor, gênero ou palavras-chave com nossa poderosa ferramenta de busca.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon purple">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                    <h3 class="feature-title">Escaneamento QR</h3>
+                    <p class="feature-description">Escaneie o código QR dos livros para empréstimo rápido sem filas ou burocracia.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon pink">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3 class="feature-title">Notificações</h3>
+                    <p class="feature-description">Receba lembretes sobre datas de devolução e notificações sobre novos livros disponíveis.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon blue">
+                        <i class="fas fa-bookmark"></i>
+                    </div>
+                    <h3 class="feature-title">Lista de Desejos</h3>
+                    <p class="feature-description">Marque livros para ler depois e receba notificações quando estiverem disponíveis.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon purple">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="feature-title">Comunidade</h3>
+                    <p class="feature-description">Conecte-se com outros leitores, compartilhe resenhas e recomendações de livros.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon pink">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title">Estatísticas</h3>
+                    <p class="feature-description">Acompanhe seu progresso de leitura, gêneros favoritos e hábitos de leitura ao longo do tempo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Screenshots -->
+    <section class="app-screenshots section">
+        <div class="container">
+            <h2 class="section-title text-center">Conheça o App</h2>
+            <p class="section-subtitle text-center">Uma interface intuitiva e moderna para transformar sua experiência de leitura</p>
+            
+            <div class="screenshots-container">
+                <div class="screenshots-grid" style="display: flex; overflow-x: auto; gap: 20px; padding: 20px 0; scroll-snap-type: x mandatory;">
+                    <div class="screenshot-item" style="flex: 0 0 280px; scroll-snap-align: start;">
+                        <img src="assets/images/ipcbook1.png" alt="App Screenshot" class="screenshot-img">
+                    </div>
+                    <div class="screenshot-item" style="flex: 0 0 280px; scroll-snap-align: start;">
+                        <img src="assets/images/ipcbook4.png" alt="App Screenshot" class="screenshot-img">
+                    </div>
+                    <div class="screenshot-item" style="flex: 0 0 280px; scroll-snap-align: start;">
+                        <img src="assets/images/ipcbook2.png" alt="App Screenshot" class="screenshot-img">
+                    </div>
+                    <div class="screenshot-item" style="flex: 0 0 280px; scroll-snap-align: start;">
+                        <img src="assets/images/ipcbook3.png" alt="App Screenshot" class="screenshot-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works section" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title text-center">Como Funciona</h2>
+            <p class="section-subtitle text-center">Três passos simples para transformar sua experiência na biblioteca</p>
+            
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Baixe o App</h3>
+                    <p class="step-description">Disponível para iOS e Android, baixe gratuitamente e faça login com seu ID escolar.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Encontre Livros</h3>
+                    <p class="step-description">Pesquise no catálogo completo, escaneie as estantes ou descubra recomendações personalizadas.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Leia e Gerencie</h3>
+                    <p class="step-description">Registre empréstimos com QR code, receba lembretes e compartilhe suas impressões.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <h2 class="section-title text-center">O Que Dizem Nossos Usuários</h2>
+            <p class="section-subtitle text-center">Veja como o IPCbook tem transformado bibliotecas escolares</p>
+            
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">O IPCbook revolucionou nossa biblioteca. Os alunos estão lendo mais, as filas acabaram e conseguimos ter métricas precisas sobre os hábitos de leitura.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="assets/images/women 1.jpg" alt="Author">
+                        </div>
+                        <div class="author-info">
+                            <h4>Mariana Silva</h4>
+                            <p>Bibliotecária, Colégio Estadual</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-text">Como estudante, adoro poder ver quais livros estão disponíveis antes mesmo de ir à biblioteca. As recomendações baseadas no que já li são sempre certeiras!</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="assets/images/man1.jpg" alt="Author">
+                        </div>
+                        <div class="author-info">
+                            <h4>Lucas Oliveira</h4>
+                            <p>Estudante, 2º ano do Ensino Médio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta section" id="download">
+        <div class="container">
+            <h2 class="cta-title">Pronto para transformar sua biblioteca?</h2>
+            <p class="cta-subtitle">Baixe agora o IPCbook e descubra uma nova maneira de gerenciar e explorar o acervo da sua escola.</p>
+            
+            <div class="app-buttons">
+                <a href="#" class="app-button">
+                    <i class="fab fa-google-play"></i>
+                    <div>
+                        <span>Disponível no</span>
+                        <strong>Google Play</strong>
+                    </div>
+                </a>
+                <a href="#" class="app-button">
+                    <i class="fab fa-apple"></i>
+                    <div>
+                        <span>Baixe na</span>
+                        <strong>App Store</strong>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="#" class="footer-logo">
+                        <img class="ipcbooklogo" src="assets/images/logo1.png" alt="logo do ipcbook" />
+                        <span>IPCbook</span>
+                    </a>
+                    <p class="footer-description">Transformando bibliotecas escolares com tecnologia e inovação.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="#features">Recursos</a></li>
+                        <li class="footer-link"><a href="#how-it-works">Como Funciona</a></li>
+                        <li class="footer-link"><a href="#testimonials">Depoimentos</a></li>
+                        <li class="footer-link"><a href="#download">Download</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Suporte</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="#">FAQ</a></li>
+                        <li class="footer-link"><a href="#">Suporte Técnico</a></li>
+                        <li class="footer-link"><a href="#">Contato</a></li>
+                        <li class="footer-link"><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Contato</h3>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Av. Educação, 1000 - Cuito, Bié </span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i>
+                        <span>(244) 9 411-356-156</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <span>contato@IPCbook.com.br</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2023 IPCbook. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js">
+
+    </script>
+</body>
+</html>
